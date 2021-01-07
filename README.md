@@ -6,9 +6,12 @@ Bikeshare Project
 
 ### Description
 This project is a statistical project that allows the user to search for 
-bikeshare statistical information. A few examples of the data are: popular start
+bikeshare statistical information and reveal bikeshare usage patterns. A few examples of the data are: popular start
 and end times, popular start or end destinations, or even gender. The user can
-choose between three cities, (chicago, new york city, and washington). 
+choose between three cities, (chicago, new york city, and washington). The goal of 
+this project was to import data and answer interesting questions through 
+descriptive statistics. This was possible through writing python, pandas and numpys, and other tools. 
+ 
 
 ### Files used
 chicago.csv, new_york_city.csv, washington.csv
