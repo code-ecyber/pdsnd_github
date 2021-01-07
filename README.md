@@ -5,7 +5,10 @@ January 6, 2021
 Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+This project is a statistical project that allows the user to search for 
+bikeshare statistical information. A few examples of the data are: popular start
+and end times, popular start or end destinations, or even gender. The user can
+choose between three cities, (chicago, new york city, and washington). 
 
 ### Files used
 Include the files used
