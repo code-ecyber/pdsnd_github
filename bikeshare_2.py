@@ -25,7 +25,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
-        city = input('Please enter city, either washington, chicago, or new york city: ').lower()
+        city = input('Please select a city: washington, chicago, or new york city: ').lower()
         if city not in CITY_DATA:
             print("City is invalid, please choose one of the three suggested cities.")
             continue
@@ -42,7 +42,7 @@ def get_filters():
             break
     # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day = input('Please input the day in which you would like statistics for.: ')
+        day = input('Which day would you like to select for this statistic?.: ')
         if day not in days:
             print("Day is invalid, please enter a valid day.")
             continue
@@ -104,10 +104,10 @@ def time_stats(df):
     print('The common month is', common_month)
     # display the most common day of week
     common_day = df['day_of_week'].mode()[0]
-    print('The most common day is', common_day)
+    print('The common day is', common_day)
     # display the most common start hour
     common_hour = df['hour'].mode()[0]
-    print('The most common hour is', common_hour)
+    print('The common hour is', common_hour)
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
